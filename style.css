@@ -1,0 +1,170 @@
+
+.body{
+    font-family: Verdana, Geneva, Tahoma, Arial, Helvetica, sans-serif;
+
+}
+.landing{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+.head{
+    display: flex;
+    background-color: rgb(0, 188, 212);
+
+    justify-content: right;
+    gap: 40px;
+    height: 6rem;
+}
+.head button{
+    background-color: transparent;
+    color: rgb(252, 253, 253);
+    border-style: none;
+    font-style: normal;
+    font-weight: lighter;
+   font-size: 21px;
+   transform-style: preserve-3d;
+}
+.coverpartone{
+    width: 200vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+
+}
+.onepartofcover{
+    
+    height: 20rem;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.firstletter{
+    color: rgb(227, 76, 92);
+    font-weight: 100;
+    font-size: 25px;
+    
+}
+.tittleletter{
+    font-weight: bold;
+    font-size: 70px;
+   color:rgb(48, 46, 90);
+   font-family: Arial, Helvetica, sans-serif;
+
+}
+.thirdletter{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.secondpartofcover{
+    background-color: rgb(109, 226, 158);
+    height: 20rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+.secondpartofcover img{
+    display: flex;
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+}
+.secondletter{
+    font-weight: bold;
+    font-size: 50px;
+   color:rgb(48, 46, 90);
+   font-family: Arial, Helvetica, sans-serif;
+}
+.whiteletter{
+    color: rgb(20, 12, 12);
+    /* ↑ cambiar a color blanco el color ↑ */
+    font-weight: 100;
+    font-size: 25px; 
+}
+.coverinfo{
+    background-color: rgb(255, 255, 255);
+    /* ↑ aqui para ver el tamaño del div de la tabla ↑ */
+    width: 195vh;
+    display: flex;
+    justify-content: center;
+    height: 17vh;
+    
+
+}
+.coverinfo div{
+    display: flex;
+    padding: 1%;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: start;
+    
+}
+.coverinfouno{
+    display: flex;
+    background-color: rgb(239, 239, 239);
+    width: 25vh;
+    height: 17vh;
+    
+}
+.coverinfodos{
+    display: flex;
+    background-color: rgb(239, 239, 239);
+    width: 20vh;
+    height: 17vh;
+}
+.coverinfotres{
+    display: flex;
+    background-color: rgb(239, 239, 239);
+    width: 25vh;
+    height: 17vh;
+    
+}
+.coverinfocuatro{
+    display: flex;
+    background-color: rgb(0, 188, 212);
+    width: 25vh;
+    height: 17vh;
+}
+.aboutcourse{
+    display: flex;
+    width: 180vh;
+    height: 50vh;
+    gap: 50px;
+}
+.numberspam{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 44vh;
+    background-color: rgb(0, 188, 212);
+    border-radius: 1vh;
+}
+.wordspam{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: start;
+    
+}
+.regbutton{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 5dvh;
+    border-radius: 10%;
+    border-color: rgb(227, 76, 92);
+    background-color: rgb(227, 76, 92);
+    font-weight: 700;
+}
+
+
